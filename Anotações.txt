@@ -1,0 +1,15 @@
+
+******************HTML/CSS****************
+
+Hypertext Markup Language (HTML), em português Linguagem de Marcação de Hipertexto, é uma linguagem de marcação.
+
+Algumas tags:
+class: atribui uma classe CSS para uma tag;
+id: atribui um id CSS para uma tag;
+href: atribui a URL de um recurso ligado;
+src: atribui URL para um conteúdo, por exemplo, uma imagem;
+type: atribui o tipo do elemento;
+value: atribui o valor padrão de um elemento.
+
+É possível categorizar as tags em dois tipos: o block-level (nível de bloco) e o inline (em linha). O primeiro ocupa todo o espaço do seu elemento pai e o segundo ocupa apenas o espaço do seu conteúdo, como no exemplo ilustrado.
+
