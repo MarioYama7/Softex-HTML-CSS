@@ -13,3 +13,6 @@ value: atribui o valor padrão de um elemento.
 
 É possível categorizar as tags em dois tipos: o block-level (nível de bloco) e o inline (em linha). O primeiro ocupa todo o espaço do seu elemento pai e o segundo ocupa apenas o espaço do seu conteúdo, como no exemplo ilustrado.
 
+O HTML possui muitas tags para a configuração/estilização para o site como: h1, p1, header, section, div, foot, article, aside e entre outros.
+
+

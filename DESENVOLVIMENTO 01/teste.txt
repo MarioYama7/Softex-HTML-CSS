@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento 1</title>
+    <style>
+        h1 {
+            text-decoration: underline;
+        }
+        h2 {
+            text-decoration: underline;
+        }
+        aside {
+          float: right;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            color: #f5f5f5;
+            font-size: large;
+        }
+    </style>
+</head>
+<body bgcolor="#000000">
+    <header>
+        <aside><img src="imagens/softex.png" width="80" height="30"></aside>
+        <h1>FAP SOFTEX RECIFE</h1> 
+    </header>
+
+    <fieldset style="width:700px">
+        <h2>Descrição do ODA:<aside><img src="imagens/oda.png" width="50"></aside></h2>
+        <div>Este ODA tem como objetivo a utilização das tags mais<br>
+            comuns do HTML, que foram apresentadas nas últimas aulas.
+            <p>São elas tags de:</p>
+        <ul> 
+            <li> Metadados</li>
+            <li> Separação de conteúdo</li>
+            <li> Texto</li>
+            <li> Imagens</li>
+            <li> Formulários</li> </ul>
+        </div>
+    </fieldset>
+
+    <footer> 
+        <p >Envie um comentário sobre a página:</p>
+        <textarea rows="2" cols="33"></textarea><br>
+        <input type="submit" value="Enviar">
+        <p><strong>Autor:</strong> Gabriel Vinicius Araújo de Lima<br>
+        <strong>Contato:</strong> <a href="mailto:sraa8033@gmail.com">sraa8033@gmail.com</a></p>
+    </footer>
+</body>
+</html>
