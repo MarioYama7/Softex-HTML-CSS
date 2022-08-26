@@ -1,0 +1,74 @@
+
+
+.marco{
+    width: 1000px;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: 2px solid white;
+    border-radius: 10px;
+} /*A margin left foi utilizada pra centralizar, a bora pra incluir na imagem, o border-radius é pra arredondar na borda*/
+
+.texto {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    font-size: 50px;
+}/* a fonte foi importada do google fonts, fonte-size pra aumentar mais a fonte*/
+
+.texto00 {
+    text-align: center;
+} /*Só pra deixar mais alinhado com o centro da foto*/
+
+.texto01{
+    max-width: 1000px;
+    margin-left: 10%;
+    text-align: justify;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}/*o text ident foi pra dar um "tab" no início do texto*/
+
+.texto02 {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+}/*font-size pra aumentar o tamanho da fonte*/
+
+body{
+    background: rgb(0,36,34);
+    background: linear-gradient(90deg, rgba(0,36,34,1) 0%, rgba(189,200,214,1) 0%, rgba(0,212,255,1) 100%);
+}/*Foi feito um fundo em gradiente, toda essa configuração é gerada a partir do site: https://cssgradient.io */
+
+.container-galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1rf);
+    grid-auto-rows: 300px;
+    max-width: 800px;
+    border: 2px solid white;
+    margin-left: 18%;
+    border-radius: 10px;
+}/*o grid é utilizado para , o grid-template é pra deixar as imagens juntas, 4 = quatro imagens e 1 = em uma linha*/
+
+.item-galeria{
+    position: relative;
+}/*Posição relativa do item*/
+
+.item-galeria .img-galeria{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}/*object fit é para imagem manter a proporção para o layout do grid*/
+
+.outros{
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 40%;
+}
+.footer{
+    margin-top: 3%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}/*Margin só pra distanciar um pouco*/
+
