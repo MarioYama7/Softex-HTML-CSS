@@ -15,4 +15,10 @@ value: atribui o valor padrão de um elemento.
 
 O HTML possui muitas tags para a configuração/estilização para o site como: h1, p1, header, section, div, foot, article, aside e entre outros.
 
+________________________________________________
+
+*CSS
+
+A Cascading Style Sheets (CSS), no português Folhas de Estilo em Cascata, é uma linguagem de estilização utilizada em conjunto com a HTML para aplicações web.
+
 
