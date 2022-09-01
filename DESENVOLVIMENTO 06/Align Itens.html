@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items</title>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: yellow;
+            margin: 5px;
+            color: black;
+        }
+
+        .center{
+            align-items:
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+
+        .flex_item{
+            flex: 1;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <p>Center</p>
+    <section class="container center flex_item">
+        <div class="item">1</div>
+        <div class="item">2dwjdnwuidohwduwhduidhwdiuwdhwuidh</div>
+        <div class="item">3</div>
+    </section>
+
+    <P>Stretch</P>
+    <section class="container center stretch">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3333333333333333333333333333333333333333333</div>
+    </section>
+</body>
+</html>

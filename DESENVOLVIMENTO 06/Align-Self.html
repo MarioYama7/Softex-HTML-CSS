@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Self</title>
+    <style>
+        .flex_container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
+
+        .aitem{           
+            align-items: center;
+        }
+
+        .item{
+            background-color: green;
+            color: black;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+           align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .d{
+            flex-direction: column;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>ROW</h1>
+    <p>AUTO</p>
+    <div class="flex_container">
+        <div class="item auto">aaa</div>
+        <div class="item auto">SSSS</div>
+        <div class="item auto">848tgtrthhththtrh
+            rh484</div>
+        <div class="item auto">ASAS</div>
+    </div>
+
+    <p>DIFERENTES</p>
+    <div class="flex_container">
+        <div class="item start">aaa</div>
+        <div class="item center">SSSS</div>
+        <div class="item auto">848te
+            gtrthhth
+            thtrevrvervee
+            hrh484</div>
+        <div class="item end">ASAS</div>
+    </div>
+
+    <h1>COLUMN</h1>
+    <p>AUTO</p>
+    <div class="flex_container d">
+        <div class="item auto ">aaa</div>
+        <div class="item auto">SSSS</div>
+        <div class="item auto">848tgtrthhth
+            thtrh
+            rh484</div>
+        <div class="item auto">ASAS</div>
+    </div>
+
+    <p>DIFERENTES</p>
+    <div class="flex_container d">
+        <div class="item start">aaa</div>
+        <div class="item center">SSSS</div>
+        <div class="item auto">848te
+            gtrthhth
+            thtrevrvervee
+            hrh484</div>
+        <div class="item end">ASAS</div>
+    </div>
+</body>
+</html>
